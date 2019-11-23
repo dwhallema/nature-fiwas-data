@@ -1,0 +1,738 @@
+<?xml-stylesheet href='NBII_classic.xsl' type='text/xsl'?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Hallema, Dennis W.</origin>
+        <origin>Sun, Ge</origin>
+        <origin>Caldwell, Peter V.</origin>
+        <origin>McNulty, Steven G.</origin>
+        <pubdate>2019</pubdate>
+        <title>Wildland fire impacts on water supply (FIWAS) data for the contiguous United States</title>
+        <geoform>tabular digital data</geoform>
+        <pubinfo>
+          <pubplace>Fort Collins, CO</pubplace>
+          <publish>Forest Service Research Data Archive</publish>
+        </pubinfo>
+        <onlink>https://doi.org/10.2737/RDS-2019-0012</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>We obtained data about 168 locations across the contiguous United States (CONUS) that were affected by wildland fire during the period 1984 - 2013. Wildland fire locations, dates, extent, and burn severity were obtained from the Monitoring Trends in Burn Severity (MTBS) dataset. We obtained watershed attributes (watershed boundaries, drainage areas, and perimeters) and daily time series of river flow from the GAGES-II dataset (Geospatial Attributes of Gages for Evaluating Streamflow, version II). The boundaries of the water resource regions were acquired from the Watershed Boundary Database. Climate data were extracted from the daily high resolution (1×1 kilometer) Daymet v3 dataset, and obtained the gridded PRISM (Parameter-elevation Regressions on Independent Slopes Model) dataset. For topographic data (elevation, slope, and aspect), we used the highest resolution version (244×244 meter) of the Global Multi-resolution Terrain Elevation Data 2010, principally obtained during the Shuttle Radar Topography Mission. Finally, we obtained land cover data from the 2001 National Land Cover Database (NLCD).</abstract>
+      <purpose>Wildland fire impacts on surface freshwater resources have not previously been measured, nor factored into regional water management strategies. However, large wildland fires are increasing and raise concerns about fire impacts on potable water. Therefore, we collected data from across the contiguous United States as part of an assessment of these impacts in the 5 years following wildland fire in affected locations, and their management implications.</purpose>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <rngdates>
+          <begdate>1984</begdate>
+          <enddate>2013</enddate>
+        </rngdates>
+      </timeinfo>
+      <current>Observed</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>None planned</update>
+    </status>
+    <spdom>
+      <descgeog>contiguous United States</descgeog>
+      <bounding>
+        <westbc>-124.81300</westbc>
+        <eastbc>-67.06300</eastbc>
+        <northbc>52.75000</northbc>
+        <southbc>25.00000</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>ISO 19115 Topic Category</themekt>
+        <themekey>economy</themekey>
+        <themekey>environment</themekey>
+        <themekey>geoscientificInformation</themekey>
+        <themekey>society</themekey>
+      </theme>
+      <theme>
+        <themekt>National Research &amp; Development Taxonomy</themekt>
+        <themekey>Climate change</themekey>
+        <themekey>Climate change effects</themekey>
+        <themekey>Ecology, Ecosystems, &amp; Environment</themekey>
+        <themekey>Hydrology, watersheds, sedimentation</themekey>
+        <themekey>Landscape ecology</themekey>
+        <themekey>Fire</themekey>
+        <themekey>Fire effects on environment</themekey>
+        <themekey>Natural Resource Management &amp; Use</themekey>
+        <themekey>Ecosystem services</themekey>
+        <themekey>Policies and law</themekey>
+        <themekey>Water</themekey>
+      </theme>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>wildfire</themekey>
+        <themekey>streamflow</themekey>
+        <themekey>hydrology</themekey>
+        <themekey>climate change</themekey>
+        <themekey>Joint Fire Science Program</themekey>
+        <themekey>JFSP</themekey>
+      </theme>
+      <place>
+        <placekt>None</placekt>
+        <placekey>contiguous United States</placekey>
+      </place>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>These data were collected using funding from the U.S. Government and can be used without additional permissions or fees. If you use these data in a publication, presentation, or other research product please use both of these citations: 
+
+Hallema, Dennis W.; Sun, Ge; Caldwell, Peter V.; McNulty, Steven G. 2019. Wildland fire impacts on water supply (FIWAS) data for the contiguous United States. Fort Collins, CO: Forest Service Research Data Archive. https://doi.org/10.2737/RDS-2019-0012
+
+Hallema, Dennis W.; Sun, Ge; Caldwell, Peter V.; Norman, Steven P.; Cohen, Erika C.; Liu, Yongqiang; Bladon, Kevin D.; McNulty, Steven G. 2018. Burned forests impact water supplies. Nature Communications 9(1): 1307. https://doi.org/10.1038/s41467-018-03735-6</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntper>Dennis W. Hallema</cntper>
+          <cntorg>USDA Forest Service, Southern Research Station</cntorg>
+        </cntperp>
+        <cntaddr>
+          <addrtype>mailing</addrtype>
+          <address>3041 E Cornwallis Rd</address>
+          <city>Research Triangle Park</city>
+          <state>North Carolina</state>
+          <postal>27709</postal>
+          <country>United States of America</country>
+        </cntaddr>
+        <cntvoice>Prefer contact via email</cntvoice>
+        <cntemail>dennis.hallema@usda.gov</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <datacred>This dataset was supported by the USDA Forest Service, Southern Research Station and the Joint Fire Science Program (grant # 14-1-06-18 (Ge Sun, PI). D.W. Hallema is supported by the Forest Service Research Participation Program administered by the Oak Ridge Institute for Science and Education (ORISE) through an interagency agreement between the U.S. Department of Energy and the USDA Forest Service. ORISE is managed by Oak Ridge Associated Universities (ORAU) under DOE contract number DE-AC05-06OR23100. 
+
+All opinions expressed are the authors' and do not necessarily reflect the policies and views of USDA, DOE, or ORAU/ORISE. The authors thank Danny C. Lee and Erika C. Cohen for support.</datacred>
+    <crossref>
+      <citeinfo>
+        <origin>Hallema, Dennis W.</origin>
+        <origin>Sun, Ge</origin>
+        <origin>Caldwell, Peter V.</origin>
+        <origin>Norman, Steven P.</origin>
+        <origin>Cohen, Erika C.</origin>
+        <origin>Liu, Yongqiang</origin>
+        <origin>Ward, Eric J.</origin>
+        <origin>McNulty, Steven G.</origin>
+        <pubdate>2016</pubdate>
+        <title>Assessment of wildland fire impacts on watershed annual water yield: Analytical framework and case studies in the United States</title>
+        <geoform>journal article</geoform>
+        <serinfo>
+          <sername>Ecohydrology</sername>
+          <issue>10(2): e1794</issue>
+        </serinfo>
+        <onlink>https://doi.org/10.1002/eco.1794</onlink>
+      </citeinfo>
+    </crossref>
+    <crossref>
+      <citeinfo>
+        <origin>Hallema, Dennis W.</origin>
+        <origin>Sun, Ge</origin>
+        <origin>Bladon, Kevin D.</origin>
+        <origin>Norman, Steven P.</origin>
+        <origin>Caldwell, Peter V.</origin>
+        <origin>Liu, Yongqiang</origin>
+        <origin>McNulty, Steven G.</origin>
+        <pubdate>2017</pubdate>
+        <title>Regional patterns of postwildfire streamflow response in the Western United States: The importance of scale-specific connectivity</title>
+        <geoform>journal article</geoform>
+        <serinfo>
+          <sername>Hydrological Processes</sername>
+          <issue>31(14): 2852-2598</issue>
+        </serinfo>
+        <onlink>https://doi.org/10.1002/hyp.11208</onlink>
+      </citeinfo>
+    </crossref>
+    <crossref>
+      <citeinfo>
+        <origin>Hallema, Dennis W.</origin>
+        <origin>Sun, Ge</origin>
+        <origin>Caldwell, Peter V.</origin>
+        <origin>Norman, Steven P.</origin>
+        <origin>Cohen, Erika C.</origin>
+        <origin>Liu, Yongqiang</origin>
+        <origin>Bladon, Kevin D.</origin>
+        <origin>McNulty, Steven G.</origin>
+        <pubdate>2018</pubdate>
+        <title>Burned forests impact water supplies</title>
+        <geoform>journal article</geoform>
+        <serinfo>
+          <sername>Nature Communications</sername>
+          <issue>9: 1307</issue>
+        </serinfo>
+        <onlink>https://doi.org/10.1038/s41467-018-03735-6</onlink>
+      </citeinfo>
+    </crossref>
+    <crossref>
+      <citeinfo>
+        <origin>Hallema, Dennis W.</origin>
+        <origin>Sun, Ge</origin>
+        <origin>Caldwell, Peter V.</origin>
+        <origin>Robinne, François-Nicolas</origin>
+        <origin>Bladon, Kevin D.</origin>
+        <origin>Norman, Steven P.</origin>
+        <origin>Liu, Yongqiang</origin>
+        <origin>Cohen, Erika</origin>
+        <origin>McNulty, Steven G.</origin>
+        <pubdate>2019</pubdate>
+        <title>Wildland fire impacts on water yields across the contiguous United States</title>
+        <geoform>document</geoform>
+        <serinfo>
+          <sername>General Technical Report</sername>
+          <issue>SRS-238</issue>
+        </serinfo>
+        <pubinfo>
+          <pubplace>Asheville, NC</pubplace>
+          <publish>U.S. Department of Agriculture, Forest Service, Southern Research Station</publish>
+        </pubinfo>
+        <othercit>109 p.</othercit>
+        <onlink>https://www.fs.usda.gov/treesearch/pubs/58095</onlink>
+      </citeinfo>
+    </crossref>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>The accuracy of the various attributes is reported by their sources. Please see the Source Information citations for relevant information.</attraccr>
+    </attracc>
+    <logic>The variables retain the logical consistency reported by their sources, and were consistent enough for our modeling work.</logic>
+    <complete>The variables retain the completeness reported by their sources, and were complete enough for our modeling work.</complete>
+    <lineage>
+      <method>
+        <methtype>Lab</methtype>
+        <methdesc>Effects of wildfire on water supplies were modeled; methods are described more fully in the articles listed under Cross References.</methdesc>
+      </method>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>United States Geological Survey</origin>
+            <pubdate>2016</pubdate>
+            <title>USGS Water Data for the Nation</title>
+            <geoform>tabular digital data</geoform>
+            <onlink>https://doi.org/10.5066/F7P55KJN</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>Online</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>1984</begdate>
+              <enddate>2014</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>Ground Condition</srccurr>
+        </srctime>
+        <srccontr>water data</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Thornton, P.E.</origin>
+            <origin>Thornton, M.M.</origin>
+            <origin>Mayer, B.W.</origin>
+            <origin>Wei, Y.</origin>
+            <origin>Devarakonda, R.</origin>
+            <origin>Vose, R.S.</origin>
+            <origin>Cook, R.B.</origin>
+            <pubdate>2016</pubdate>
+            <title>Daymet: Daily Surface Weather Data on a 1-km Grid for North America, Version 3</title>
+            <geoform>raster digital data</geoform>
+            <pubinfo>
+              <pubplace>Oak Ridge, Tennessee, USA</pubplace>
+              <publish>Oak Ridge National Laboratory Distributed Active Archive Center</publish>
+            </pubinfo>
+            <onlink>https://doi.org/10.3334/ORNLDAAC/1328</onlink>
+          </citeinfo>
+        </srccite>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>1980</begdate>
+              <enddate>2014</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>Ground Condition</srccurr>
+        </srctime>
+        <srccontr>daily weather data</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Daly, C.</origin>
+            <origin>Halbleib, M.</origin>
+            <origin>Smith, J.I.</origin>
+            <origin>Gibson, W.P.</origin>
+            <origin>Doggett, M.K.</origin>
+            <origin>Taylor, G.H.</origin>
+            <origin>Curtis, J.</origin>
+            <origin>Pasteris, P.P.</origin>
+            <pubdate>2008</pubdate>
+            <title>Physiographically sensitive mapping of climatological temperature and precipitation across the conterminous United States</title>
+            <geoform>journal article</geoform>
+            <serinfo>
+              <sername>International Journal of Climatology</sername>
+              <issue>28(15): 2031-2064</issue>
+            </serinfo>
+            <onlink>https://doi.org/10.1002/joc.1688</onlink>
+          </citeinfo>
+        </srccite>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>1980</begdate>
+              <enddate>2014</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>Ground Condition</srccurr>
+        </srctime>
+        <srccontr>temperature and precipitation data</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Sun, G.</origin>
+            <origin>Caldwell, P.</origin>
+            <origin>Noormets, A.</origin>
+            <origin>McNulty, S.G.</origin>
+            <origin>Cohen, E. C.</origin>
+            <origin>Moore Myers, J.</origin>
+            <origin>Domec, J.C.</origin>
+            <origin>Treasure, E.</origin>
+            <origin>Mu, Q.</origin>
+            <origin>Xiao, J.</origin>
+            <origin>John, R.</origin>
+            <origin>Chen, J.</origin>
+            <pubdate>2011</pubdate>
+            <title>Upscaling key ecosystem functions across the conterminous United States by a water-centric ecosystem model</title>
+            <geoform>journal article</geoform>
+            <serinfo>
+              <sername>Journal of Geophysical Research</sername>
+              <issue>116(G00J05)</issue>
+            </serinfo>
+            <onlink>https://doi.org/10.1029/2010JG001573</onlink>
+          </citeinfo>
+        </srccite>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>1980</begdate>
+              <enddate>2012</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>Publication Date</srccurr>
+        </srctime>
+        <srccontr>model information for ecosystem functions</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Danielson, J.J.</origin>
+            <origin>Gesch, D.B.</origin>
+            <pubdate>2011</pubdate>
+            <title>Global multi-resolution terrain elevation data 2010 (GMTED2010)</title>
+            <geoform>raster digital data</geoform>
+            <serinfo>
+              <sername>U.S. Geological Survey Open-File Report</sername>
+              <issue>2011–1073</issue>
+            </serinfo>
+            <onlink>https://pubs.usgs.gov/of/2011/1073/pdf/of2011-1073.pdf</onlink>
+            <onlink>https://lta.cr.usgs.gov/GMTED2010</onlink>
+          </citeinfo>
+        </srccite>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>2010</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>Ground Condition</srccurr>
+        </srctime>
+        <srccontr>digital elevation data</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Eidenshink, J.</origin>
+            <origin>Schwind, B.</origin>
+            <origin>Brewer, K.</origin>
+            <origin>Zhu, Z.-L.</origin>
+            <origin>Quayle, B.</origin>
+            <origin>Howard, S.</origin>
+            <pubdate>2007</pubdate>
+            <title>A project for monitoring trends in burn severity</title>
+            <geoform>journal article</geoform>
+            <serinfo>
+              <sername>Fire Ecology</sername>
+              <issue>3(1):3-21</issue>
+            </serinfo>
+            <onlink>https://doi.org/10.4996/fireecology.0301003</onlink>
+            <onlink>http://www.mtbs.gov</onlink>
+          </citeinfo>
+        </srccite>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>1984</begdate>
+              <enddate>2014</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>Ground Condition</srccurr>
+        </srctime>
+        <srccontr>wildfire burn severity data</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>United States Geological Survey</origin>
+            <pubdate>2016</pubdate>
+            <title>GAGES-II Geospatial Attributes</title>
+            <geoform>vector digital data</geoform>
+            <onlink>https://doi.org/10.5066/F7P55KJN</onlink>
+          </citeinfo>
+        </srccite>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>2011</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>Ground Condition</srccurr>
+        </srctime>
+        <srccontr>environment attributes related to stream gauges providing water data</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Homer, C.</origin>
+            <origin>Dewitz, J.</origin>
+            <origin>Yang, L.</origin>
+            <origin>Jin, S.</origin>
+            <origin>Danielson, P.</origin>
+            <origin>Xian, G.</origin>
+            <origin>Coulston, J.</origin>
+            <origin>Herold, N.</origin>
+            <origin>Wickham, J.</origin>
+            <origin>Megown, K.</origin>
+            <pubdate>2011</pubdate>
+            <title>Completion of the 2011 National Land Cover Database for the conterminous United States–representing a decade of land cover change information</title>
+            <geoform>raster digital data</geoform>
+            <serinfo>
+              <sername>Photogrammetric Engineering &amp; Remote Sensing</sername>
+              <issue>81(5)</issue>
+            </serinfo>
+            <onlink>http://www.mrlc.gov/nlcd2011.php</onlink>
+          </citeinfo>
+        </srccite>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>2001</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>Ground Condition</srccurr>
+        </srctime>
+        <srccontr>land use and land cover data</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>Data were collected from a variety of high-resolution datasets describing the conterminous United States landscape with respect to wildland fire, climate, topography, land cover, watershed boundaries, and river flow. Process further described in Hallema et al. (2019).
+		
+Hallema, Dennis W.; Sun, Ge; Caldwell, Peter V.; Robinne, François-Nicolas; Bladon, Kevin D.; Norman, Steven P.; Liu, Yongqiang; Cohen, Erika; McNulty, Steven G. 2019. Wildland fire impacts on water yields across the contiguous United States. General Technical Report SRS-238. Asheville, NC: U.S. Department of Agriculture Forest Service, Southern Research Station. 109 p. https://www.fs.usda.gov/treesearch/pubs/58095</procdesc>
+        <procdate>Unknown</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>We selected GAGES-II watersheds with a drainage area &gt; 10 square kilometers (km²), approximately the size of a headwater catchment, and a flow record spanning at least 2 decades. In addition, we only selected watersheds with minimal human disturbances or hydrologic infrastructure (e.g., dam, flow diversions, etc.) so the effect of the burn on flow could be isolated from other factors. We combined GAGES-II watershed boundaries with annual MTBS burn severity data, resulting in a dataset with information on burn severity (ordinal classes of underburned or unburned, low, moderate, and high severity) for each 120- × 120-meter (m) subdivision of the burned watersheds. We calculated the fraction of the watershed burned for each burn severity class and for all classes combined. This is the burned area-to-drainage area ratio (BAR).
+
+The resulting collection contained 168 burned watersheds with a BAR ≥ 1 percent for any degree of burn impacts in any single year between 1984 and 2008.</procdesc>
+        <procdate>Unknown</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>After identifying the collection of burned watersheds, we retrieved the corresponding fire dates and summarized data for river flow Q, precipitation P, and snow water equivalent (amount of water contained within the snowpack) SWE. Monthly potential evapotranspiration (PET) was estimated from PRISM gridded climate data with Hamon’s method. Finally, we determined for each burned watershed the NLCD land cover and GMTED2010 topographic characteristics such as elevation, slope, and aspect. We also calculated the watershed shape parameter describing the ratio of watershed perimeter to drainage area (Gravelius’ compactness factor).</procdesc>
+        <procdate>Unknown</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>To evaluate wildland fire impacts on annual river flow, we
+1. Detected river flow change
+
+2. Identified changes in water yield ratio
+
+3. Characterized local wildland fire-climate-environment interactions
+
+4. Filtered local climate baseline
+
+5. Computed net impact of wildland fire on river flow</procdesc>
+        <procdate>Unknown</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>Predict potential wildfire effects on surface water yield
+
+Used the Water Supply Stress Index model (WaSSI), i.e., the WaSSI monthly water balance subroutine, to obtain full-cover assessment of the potential impact of severe wildfire on surface water yield across the large climatic gradient of the CONUS. We defined four scenarios of hypothetical burn impacts and simulated corresponding changes to the water balance in all CONUS watersheds for the period between 2001 and 2010. By comparing the results of each scenario to a baseline scenario representing undisturbed conditions, we obtained an estimate of their hypothetical impact on water supplies.</procdesc>
+        <procdate>Unknown</procdate>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>Albers Conical Equal Area</mapprojn>
+          <albers>
+            <stdparll>29.5</stdparll>
+            <stdparll>45.5</stdparll>
+            <longcm>-96</longcm>
+            <latprjo>37.5</latprjo>
+            <feast>0</feast>
+            <fnorth>0</fnorth>
+          </albers>
+        </mapproj>
+        <planci>
+          <plance>Coordinate Pair</plance>
+          <coordrep>
+            <absres>1</absres>
+            <ordres>1</ordres>
+          </coordrep>
+          <plandu>Meters</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>North American Datum of 1983</horizdn>
+        <ellips>Geodetic Reference System 80</ellips>
+        <semiaxis>6378137</semiaxis>
+        <denflat>298.2572221</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <overview>
+      <eaover>Below is a list of the files included in this data publication.
+
+DATA FILES
+	  
+\Data\watershedSynthesis.csv: 
+Comma-delimited ASCII text file containing data from 1984 - 2013 for the 32 watersheds that had &gt; 19% of their area burned. Data described below.
+	  
+Station_ID = USGS station ID (unique integer value)
+
+Fire_date = date the fire started from the Monitoring Trends in Burn Severity (MTBS) database; formatted as yyyy-mm-dd character string
+
+Fire_name = Name of the fire as listed in the MTBS database
+
+Fire_type = MTBS fire type; uses the codeset
+    WF = wildfire
+    RX = prescribed fire
+    UNK = type unknown
+
+Station_name = USGS station name
+
+Station_class = USGS station classification: Ref or Non-Ref (all stations used in the dataset were reference stations)
+
+Aggr_ecoregion = USGS aggregated ecoregion; codeset is
+     SECstPlain = southeast coastal plains
+     SEPlains = southeast plains
+     WestMnts = western mountains
+     CntlPlains = central plains
+     WestPlains = western plains
+     WestXeric = western xeric
+
+Drainage_sqkm = USGS drainage area, in square kilometers
+
+HUC02 = hydrologic unit code, defined at outlet; 2-digit code ranging from 01 to 21
+
+HUC02_name = name of the hydrologic unit code
+
+Gage_lat = latitude of the USGS station in decimal degrees
+
+Gage_long = longitude of the USGS station in decimal degrees, six decimal place precision
+
+State = U.S. state in which the gage station is located, expressed as standard U.S. Postal Service 2-letter codeset
+
+Mean_altitude = average elevation from GMTED2010, meters to six decimal places
+
+CEM_optbic = optimal Climate Elasticity Model based on Bayesian Information Criterion; enumerated domain of 'cem1', 'cem2', 'cem3', and 'cem4'
+
+CEM_optbic_rsq = R² of optimal Climate Elasticity Model; real value ranging from 0.0 to 1.0
+
+CEM_optbic_pval = p-value expressing the probability that the optimal model does not differ from a null model; real value ranging from 0.0 to 1.0
+
+CEM_delta_climate = change in observed annual streamflow attributed to climate effects, millimeters
+
+CEM_delta_nonclimate = change in observed annual streamflow attributed to non-climate factors, millimeters
+
+CEM_delta_climate_% = percent change in observed annual streamflow attributed to climate effects
+
+CEM_delta_nonclimate_% = percent change in observed annual streamflow attributed to non-climate factors
+
+
+\Data\spatial: 
+Collection of seven files defining a shapefile containing point and vector data for 168 CONUS watersheds burned over more than 1% of their area (Hallema et al. 2019).  
+
+
+\Data\tabular: 
+Tabular time series data across 1984 - 2013 for 168 CONUS watersheds burned over more than 1% of their area (Hallema et al. 2019). Collection of 336 comma-delimited ASCII files are named wshd#_m.csv and wshd#_y.csv, where # refers to the 7-8 digit USGS station ID (staid) and "_y" are the yearly aggregated data. Data in each file are:
+
+Attribute Label, Attribute Definition, Attribute Source, Attribute Domain (Units)
+STAID = USGS Station ID (unique integer value)
+
+POS = POSIX date expressed as YYYY-mm-dd
+
+PPT_MM = WaSSI PRISM Precipitation expressed in millimeters
+
+PPT_MMvar = WaSSI PRISM Precipitation variance
+
+PET_MM = WaSSI PRISM Potential evapotranspiration expressed in millimeters
+
+YLD_MM = WaSSI Simulated water yield expressed in millimeters
+
+YLD_MMvar = WaSSI Simulated water yield variance
+
+yieldmm = GAGES-II Observed water yield expressed in millimeters
+
+yieldmmvar = Observed water yield variance
+
+USGS_RC = Daymet/USGS Runoff coefficient; dimensionless
+
+WAS_RC = Daymet/WaSSI Runoff coefficient; dimensionless
+
+tmax = Daymet v3 Daily maximum 2-meter air temperature in degrees Celsius
+
+tmin = Daymet v3 Daily minimum 2-meter air temperature in degrees Celsius
+
+p = Daymet v3 Daily total precipitation in millimeters, sum of all forms converted to water-equivalent
+
+swe = Daymet v3 Snow water equivalent in kilograms per square meter; i.e., the amount of water contained within the snowpack
+
+tmaxmvar = Daymet v3 Daily maximum 2-meter air temperature variance
+
+tminmvar = Daymet v3 Daily minimum 2-meter air temperature variance
+
+
+SUPPLEMENTS
+
+\Supplements\14-1-06-18_final_report.pdf: Joint Fire Science Program final report for JFSP Project ID: 14-1-06-18 "Effects of wildfires and fuel treatment strategies on watershed water quantity across the contiguous United States". Report also available online: https://www.firescience.gov/projects/14-1-06-18/project/14-1-06-18_final_report.pdf
+
+\Supplements\GTR_figures: 
+Figures showing elevation, land cover and burn severity maps for 32 CONUS watersheds burned over more than 19% of their area (Appendix B, Hallema et al. 2019). 
+
+</eaover>
+      <eadetcit>Hallema, Dennis W.; Sun, Ge; Caldwell, Peter V.; Robinne, François-Nicolas; Bladon, Kevin D.; Norman, Steven P.; Liu, Yongqiang; Cohen, Erika; McNulty, Steven G. 2019. Wildland fire impacts on water yields across the contiguous United States. General Technical Report SRS-238. Asheville, NC: U.S. Department of Agriculture Forest Service, Southern Research Station. 109 p. https://www.fs.usda.gov/treesearch/pubs/58095</eadetcit>
+    </overview>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>USDA Forest Service, Research and Development</cntorg>
+        </cntorgp>
+        <cntpos>Research Data Archivist</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>240 West Prospect Road</address>
+          <city>Fort Collins</city>
+          <state>CO</state>
+          <postal>80526</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>see Contact Instructions</cntvoice>
+        <cntinst>This contact information was current as of September 2019. For current information see Contact Us page on: https://doi.org/10.2737/RDS.</cntinst>
+      </cntinfo>
+    </distrib>
+    <resdesc>RDS-2019-0012</resdesc>
+    <distliab>Metadata documents have been reviewed for accuracy and completeness. Unless otherwise stated, all data and related materials are considered to satisfy the quality standards relative to the purpose for which the data were collected. However, neither the author, the Archive, nor any part of the federal government can assure the reliability or suitability of these data for a particular purpose. The act of distribution shall not constitute any such warranty, and no responsibility is assumed for a user's application of these data or related materials.
+
+The metadata, data, or related materials may be updated without notification. If a user believes errors are present in the metadata, data or related materials, please use the information in (1) Identification Information: Point of Contact, (2) Metadata Reference: Metadata Contact, or (3) Distribution Information: Distributor to notify the author or the Archive of the issues.</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>SHP</formname>
+          <formvern>see Format Specification</formvern>
+          <formspec>ESRI ArcGIS shapefile (SHP)</formspec>
+          <filedec>Files zipped with 7-Zip 18.05</filedec>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>https://doi.org/10.2737/RDS-2019-0012</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <digform>
+        <digtinfo>
+          <formname>ASCII</formname>
+          <formvern>see Format Specification</formvern>
+          <formspec>Comma-delimited ASCII text file (CSV)</formspec>
+          <filedec>Files zipped with 7-Zip 18.05</filedec>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>https://doi.org/10.2737/RDS-2019-0012</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <digform>
+        <digtinfo>
+          <formname>PNG</formname>
+          <formvern>see Format Specification</formvern>
+          <formspec>Portable Network Graphics format file (PNG)</formspec>
+          <filedec>Files zipped with 7-Zip 18.05</filedec>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>https://doi.org/10.2737/RDS-2019-0012</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <digform>
+        <digtinfo>
+          <formname>PDF</formname>
+          <formvern>see Format Specification</formvern>
+          <formspec>Portable document format file (PDF)</formspec>
+          <filedec>Files zipped with 7-Zip 18.05</filedec>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>https://doi.org/10.2737/RDS-2019-0012</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <fees>None</fees>
+    </stdorder>
+  </distinfo>
+  <metainfo>
+    <metd>20190920</metd>
+    <metc>
+      <cntinfo>
+        <cntperp>
+          <cntper>Dennis W. Hallema</cntper>
+          <cntorg>USDA Forest Service, Southern Research Station</cntorg>
+        </cntperp>
+        <cntaddr>
+          <addrtype>mailing</addrtype>
+          <address>3041 E Cornwallis Rd</address>
+          <city>Research Triangle Park</city>
+          <state>North Carolina</state>
+          <postal>27709</postal>
+          <country>United States of America</country>
+        </cntaddr>
+        <cntvoice>Prefer contact via email</cntvoice>
+        <cntemail>dennis.hallema@usda.gov</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Biological Data Profile of the Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001.1-1999</metstdv>
+  </metainfo>
+</metadata>
